@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <!-- custom CSS -->
+        <link rel="stylesheet" href="css/app.css">
+
+        <!-- font awesome -->
+        <script src="https://kit.fontawesome.com/c73d4da8d5.js" crossorigin="anonymous" defer></script>
+
+        <!-- custom JS -->
+        <script type="module" src="js/cart-page/entry-point.js" defer></script>
+
+        <title>Pop's Game Shop</title>
+    </head>
+
+    <body>
+        <div class="loader">
+            <img src="icons/load.svg">
+        </div>
+        <rm-frame>
+            <div class="cart"  slot="aside-content">
+                <ul class="cart__details">
+                    <li class="cart__total-products">Numar produse in cos: <span></span></li>
+                    <li class="cart__transport-price">Cost transport: 10 lei </li>
+                    <li class="cart__total-price">Pret total: <span></span> lei</li>
+                    <li class="cart__buy"><button class="button">Cumpara <i class="far fa-credit-card"></i></button></li>
+                </ul>
+            </div>
+
+            <div  class="cart" slot="content">
+                <h1>Cos de cumparaturi</h1>
+                <ul class="cart__details cart__details--mobile">
+                    <ul class="cart__details">
+                        <li class="cart__total-products">Numar produse in cos: <span></span></li>
+                        <li class="cart__transport-price">Cost transport: 10 lei </li>
+                        <li class="cart__total-price">Pret total: <span></span> lei</li>
+                        <li class="cart__buy"><button class="button">Cumpara <i class="far fa-credit-card"></i></button></li>
+                    </ul>
+                </ul>
+
+
+                <ul class="cart__table">
+                    <li class="cart__table-header">
+                        <ul>
+                            <li>Nume</li>
+                            <li>Cantiate</li>
+                            <li>Pret</li>
+                            <li>Subtotal</li>
+                        </ul>
+                    </li>
+                </ul>
+
+            </div>
+
+        </rm-frame>
+    </body>
+</html>

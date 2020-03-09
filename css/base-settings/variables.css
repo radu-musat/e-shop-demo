@@ -1,0 +1,29 @@
+/* -- variables -- */
+
+:root {
+    /* -- main color variables -- */
+    --white: #ffffff;
+    --black: #000000;
+    --powder: #ebe8e8;
+    --dark-gray: #4e5f6e;
+    --gray-alternate: #eaeaea;
+    --sky-blue: #0087ff;
+
+    /* -- theme color settings  -- */
+    --main-color: var(--sky-blue);
+    --secondary-color: var(--white);
+    --support-color: var(--dark-gray);
+    --tertiary-color: var(--black);
+
+    --main-text-color: var(--black);
+    --secondary-text-color: var(--white);
+    --tertiary-text-color: var(--sky-blue);
+
+    --main-button-background: var(--main-color);
+    --main-button-color: var(--support-color);
+
+    /* -- font-weights */
+    --font-weight-light: 300;
+    --font-weight-medium: 400;
+    --font-weight-bold: 700;
+}

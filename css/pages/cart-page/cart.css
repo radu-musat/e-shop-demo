@@ -1,0 +1,116 @@
+.cart:nth-of-type(2) {
+    padding: 1rem;
+}
+
+.cart h1 {
+    color: var(--tertiary-text-color);
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.cart__details li {
+    margin-bottom: 1rem;
+}
+
+.cart__details .button {
+    font-size: 1rem;
+}
+
+.cart__details .button i {
+    transform: translateY(1px);
+}
+
+.cart__table {
+    padding: .75rem .75rem .75rem 0;
+}
+
+.cart__table-header ul {
+    display: none;
+}
+
+.cart__table-header ul li {
+    flex-basis: 25%;
+}
+
+.cart__table-item {
+    margin-bottom: 1rem;
+}
+
+.cart__table-item ul li {
+    margin-bottom: 1rem;
+}
+
+.cart__table-item ul li .button {
+    display: block;
+    margin: 1rem auto 0;
+}
+
+.cart__table-item {
+    background: var(--gray-alternate);
+    border-radius: 3px;
+    padding: .45rem;
+    text-align: center;
+}
+
+.cart__table-item .cart__table-item-increase,
+.cart__table-item .cart__table-item-decrease {
+    color: var(--tertiary-text-color);
+}
+
+.cart__table-item .cart__table-item-increase:hover,
+.cart__table-item .cart__table-item-decrease:hover {
+    filter: brightness(1.5);
+    cursor: pointer;
+}
+
+.cart__table-item .cart__table-item-increase {
+    margin-right: .65rem;
+}
+
+.cart__table-item .cart__table-item-decrease {
+    margin-left: .65rem;
+}
+
+
+@media only screen and (min-width: 1024px) {
+    .cart h1 {
+        margin-bottom: 0;
+        text-align: left;
+    }
+
+    .cart__details--mobile {
+        display: none;
+    }
+
+    .cart__table-header {
+        margin-bottom: 1rem;
+        padding-bottom: .25rem;
+        border-bottom: 1px solid var(--gray-alternate);
+    }
+
+    .cart__table-header ul {
+        display: flex;
+    }
+
+    .cart__table-item ul {
+        align-items: center;
+        display: flex;
+    }
+
+    .cart__table-item ul li {
+      align-items: center;
+      display: flex;
+      flex-basis: 25%;
+      margin-bottom: 0;
+    }
+
+    .cart__table-item ul li:last-child {
+        justify-content: space-between;
+    }
+
+    .cart__table-item ul li .button {
+        display: inline-block;
+        margin:  0 0 0 1rem;
+    }
+
+}

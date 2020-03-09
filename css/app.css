@@ -1,0 +1,45 @@
+/* -- css entry point -- */
+
+/* -- base settings -- */
+@import "base-settings/variables.css";
+@import "base-settings/reset.css";
+@import "base-settings/typography.css";
+@import "base-settings/container.css";
+
+/* -- google fonts --*/
+@import "https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700&display=swap";
+
+
+/* -- owl carousel -- */
+@import "vendor/owl-carousel/owl.carousel.min.css";
+@import "vendor/owl-carousel/owl.theme.default.min.css";
+
+/* -- cutom settings for carousel -- */
+@import "carousel/carousel.css";
+
+/* -- components -- */
+@import "components/components.css";
+
+/* -- grid -- */
+@import "grid/grid.css";
+
+/* -- header, footer, aside-and-main -- */
+@import "header/header.css";
+@import "aside-and-main/aside-and-main.css";
+
+/* -- pages -- */
+
+/*-- details page -- */
+@import "pages/details-page/details.css";
+
+/*-- admin page --*/
+@import "pages/admin-page/admin.css";
+
+/* -- edit/create page -- */
+@import "pages/save-page/save.css";
+
+/* -- cart -- */
+@import "pages/cart-page/cart.css";
+
+/* -- purchase confirm --*/
+@import "pages/purchase-confirm/purchase-confirm.css";

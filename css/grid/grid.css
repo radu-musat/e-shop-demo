@@ -1,0 +1,28 @@
+/* -- grid -- */
+.content__item {
+    padding: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+       .content {
+           align-self: flex-start;
+           display: flex;
+           flex-wrap: wrap;
+       }
+
+       .content__item {
+            flex-basis: 50%;
+       }
+}
+
+@media screen and (min-width: 1024px) {
+    .content__item {
+        flex-basis: 33%;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .content__item {
+        flex-basis: 25%;
+    }
+}

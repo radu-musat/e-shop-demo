@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="390b3f68-7e5e-4122-8b0c-bf0459946401" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1XzQMJa6TlMDP53lyDN02hW1OQw" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\jsons" />
+      <recent name="G:\" />
+      <recent name="G:\Projects\magazin-electronic\css\vendor\owl-carousel" />
+      <recent name="G:\Projects\magazin-electronic\js\vendor\owl-carousel" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\Projects\magazin-electronic" />
+      <recent name="G:\Projects\magazin-electronic\css" />
+      <recent name="G:\Projects\magazin-electronic\css\header" />
+      <recent name="G:\Projects\magazin-electronic\css\aside" />
+      <recent name="G:\Projects\magazin-electronic\css\grid" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="390b3f68-7e5e-4122-8b0c-bf0459946401" name="Default Changelist" comment="" />
+      <created>1582046393801</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582046393801</updated>
+      <workItem from="1582046394913" duration="909000" />
+      <workItem from="1582047316021" duration="4352000" />
+      <workItem from="1582139625354" duration="3000" />
+      <workItem from="1582217046981" duration="25000" />
+      <workItem from="1582570108321" duration="14124000" />
+      <workItem from="1582587598391" duration="248000" />
+      <workItem from="1582650512833" duration="7908000" />
+      <workItem from="1582741312227" duration="12129000" />
+      <workItem from="1582821030792" duration="10310000" />
+      <workItem from="1582969523548" duration="697000" />
+      <workItem from="1582970921299" duration="14000" />
+      <workItem from="1582981120860" duration="23346000" />
+      <workItem from="1583050866945" duration="39816000" />
+      <workItem from="1583100626182" duration="54000" />
+      <workItem from="1583253514632" duration="9529000" />
+      <workItem from="1583429103266" duration="13756000" />
+      <workItem from="1583579908903" duration="1929000" />
+      <workItem from="1583582352296" duration="8006000" />
+      <workItem from="1583693191588" duration="8249000" />
+      <workItem from="1583703850773" duration="5858000" />
+      <workItem from="1583779918648" duration="14184000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

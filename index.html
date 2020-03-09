@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/app.css">
+
+        <!-- font awesome -->
+        <script src="https://kit.fontawesome.com/c73d4da8d5.js" crossorigin="anonymous" defer></script>
+
+        <!-- jQuery -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+                integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+                crossorigin="anonymous" defer></script>
+
+        <!-- Owl Carousel -->
+        <script src="js/vendor/owl-carousel/owl.carousel.min.js" defer></script>
+
+        <!-- custom JS -->
+        <script type="module" src="js/main-page/entry-point.js" defer></script>
+
+        <title>Pop's Game Shop</title>
+    </head>
+
+    <body>
+        <div class="loader">
+            <img src="icons/load.svg">
+        </div>
+        <rm-frame>
+            <div  class="carousel" slot="aside-content">
+                <h2>Produse Recomandate</h2>
+                <div class="owl-carousel"></div>
+            </div>
+            <div  class="content" slot="content"></div>
+        </rm-frame>
+    </body>
+</html>

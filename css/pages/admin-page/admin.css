@@ -1,0 +1,175 @@
+.admin-aside h2 {
+    color: var(--tertiary-text-color);
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.admin-header {
+    align-items: center;
+    border-bottom: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+
+.admin-header h2 {
+    color: var(--tertiary-text-color);
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.admin-header .button {
+    width: 100%;
+    font-size: .9rem;
+    text-align: center;
+}
+
+.admin-content {
+    padding-top: 1rem;
+    width: 100%;
+}
+
+.admin-content picture {
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 75%;
+}
+
+.admin-content picture img {
+    border-radius: 3px;
+    object-fit: cover;
+    object-position: top;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    left: 0;
+    width: 100%;
+}
+
+.admin-content__header {
+    display: none;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid black;
+}
+
+.admin-content__row {
+    border-bottom: 1px solid black;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+}
+
+.admin-content__header li,
+.admin-content__row li {
+    color: var(--tertiary-text-color);
+    padding: .65rem 0;
+    text-align: center;
+}
+
+.admin-content__row:last-of-type {
+    border: 0;
+    margin: 0;
+}
+
+.admin-content__options .button  {
+    width: 100%;
+    font-size: .85rem;
+}
+
+.admin-content__options button:nth-child(1) {
+    margin: 0 0 .65rem;
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 767px) {
+    .admin-content__name::before {
+        border-bottom: 1px solid var(--main-text-color);
+        content: 'Nume';
+        display: block;
+        margin-bottom: .75rem;
+    }
+
+    .admin-content__price::before {
+        border-bottom: 1px solid var(--main-text-color);
+        content: 'Pret';
+        display: block;
+        margin-bottom: .75rem;
+    }
+
+    .admin-content__stock::before {
+        border-bottom: 1px solid var(--main-text-color);
+        content: 'Stoc';
+        display: block;
+        margin-bottom: .75rem;
+    }
+}
+
+
+@media only screen and (min-width: 768px) {
+    .admin-header {
+        padding-left: 1rem;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .admin-header h2 {
+        margin-bottom: 0;
+    }
+
+    .admin-header .button {
+        width: auto;
+    }
+
+    .admin-content {
+        padding-right: 1rem;
+    }
+
+    .admin-content__header,
+    .admin-content__row {
+        align-items: center;
+        display: flex;
+        padding-left: 1rem;
+    }
+
+    .admin-content__header-image,
+    .admin-content__picture {
+        flex-basis: 20%;
+        margin-right: 1rem;
+    }
+
+    .admin-content__header-name,
+    .admin-content__name {
+        flex-basis: 20%;
+    }
+
+    .admin-content__header-price,
+    .admin-content__price {
+        flex-basis: 20%;
+    }
+
+    .admin-content__header-stock,
+    .admin-content__stock {
+        flex-basis: 20%;
+    }
+
+    .admin-content__header-options,
+    .admin-content__options {
+        flex-basis: 20%;
+    }
+
+    .admin-content__options {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .admin-content__options .button  {
+        flex-basis: 45%;
+    }
+
+    .admin-content__options button:nth-child(1) {
+        margin: 0;
+    }
+}

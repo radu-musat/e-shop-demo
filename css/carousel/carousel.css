@@ -1,0 +1,55 @@
+.carousel a {
+    display: block;
+}
+
+.carousel h2,
+.carousel h3 {
+    color: var(--tertiary-text-color);
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.carousel h3 {
+    font-size: .85rem;
+}
+
+.carousel picture {
+    height: 0;
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 75%;
+    width: 100%;
+}
+
+.carousel img {
+    border-radius: 5px;
+    height: 100%;
+    left: 0;
+    object-fit: cover;
+    object-position: top;
+    top: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.owl-nav {
+    display: flex;
+    justify-content: center;
+}
+
+.owl-nav button:focus {
+    outline: none;
+}
+
+.owl-nav button span {
+    color: var(--tertiary-text-color);
+    font-size: 3rem;
+    transition: filter .25s ease-out;
+}
+
+.owl-nav button span:hover {
+    filter: contrast(10);
+}
+
+

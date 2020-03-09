@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Pop's Game Shop</title>
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/app.css">
+
+        <!-- font awesome -->
+        <script src="https://kit.fontawesome.com/c73d4da8d5.js" crossorigin="anonymous" defer></script>
+
+        <!-- custom JS -->
+        <script type="module" src="js/admin-page/entry-point.js"></script>
+    </head>
+    <body>
+        <div class="loader">
+            <img src="icons/load.svg">
+        </div>
+        <rm-frame>
+            <div  class="admin-aside" slot="aside-content">
+                <h2>Total produse in stoc: <br> <span></span></h2>
+                <h2>Valoarea totala a produselor: <br> <span></span> lei</h2>
+            </div>
+            <div class="admin-content" slot="content">
+                <div class="admin-header">
+                    <h2>Gestioneaza produse</h2>
+                    <a href="save.html?mode=save" class="button">Adaga un produs nou</a>
+                </div>
+                <ul class="admin-content__header">
+                   <li class="admin-content__header-image">Imagine</li>
+                   <li class="admin-content__header-name">Nume</li>
+                   <li class="admin-content__header-price">Pret</li>
+                   <li class="admin-content__header-stock">Cantitate</li>
+                   <li class="admin-content__header-options">Optiuni</li>
+                </ul>
+            </div>
+        </rm-frame>
+    </body>
+</html>

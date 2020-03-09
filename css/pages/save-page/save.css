@@ -1,0 +1,78 @@
+/* -- Edit/Save page -- */
+
+.save {
+    padding-right: 1rem;
+    padding-top: 2rem;
+}
+
+.save h2 {
+    color: var(--tertiary-text-color);
+    text-align: center;
+}
+
+.save form {
+    box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+    padding: 1rem;
+}
+
+.save  input,
+.save  textarea {
+    border-radius: 3px;
+    border: 1px solid var(--gray-alternate);
+    padding: .35rem;
+    transition: border .25s ease-out, box-shadow .25s ease-out;
+}
+
+.save  input:focus,
+.save  textarea:focus {
+    outline: none;
+    border: 1px solid rgba(81, 203, 238, 1);
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+}
+
+.save  input.invalid,
+.save textarea.invalid {
+    border: 1px solid rgba(238, 44, 70, 1);
+    box-shadow: 0 0 5px rgba(238, 44, 70, 1);
+}
+
+.save  input.invalid-negative  {
+    border: 1px solid rgb(238, 227, 50);
+    box-shadow: 0 0 5px rgb(238, 227, 50);
+}
+
+.save__invalid-message,
+.save__negative-message  {
+    font-size: .75rem;
+    color: rgba(238, 44, 70, 1);
+    display: none;
+}
+
+.save__invalid-message--active,
+.save__negative-message--active {
+    display: block;
+    margin-top: .25rem;
+}
+
+.save  textarea {
+    max-height: 5rem;
+    min-height: 2.5rem;
+    max-width: 100%;
+    min-width: 100%;
+    resize: none;
+}
+
+.save label {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.save span {
+    margin-bottom: 1rem;
+}
+
+.save button {
+    font-size: 1rem;
+}

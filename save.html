@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/app.css">
+
+        <!-- font awesome -->
+        <script src="https://kit.fontawesome.com/c73d4da8d5.js" crossorigin="anonymous" defer></script>
+
+        <!-- custom script -->
+        <script type="module" src="js/save-page/entry-point.js"></script>
+
+        <title>Pop's Game Shop</title>
+    </head>
+    <body>
+        <div class="loader">
+            <img src="icons/load.svg">
+        </div>
+        <rm-frame>
+            <div class="save" slot="aside-content">
+                <h2>Edit</h2>
+            </div>
+
+            <div class="container save" slot="content">
+                <form >
+                    <label for="image">
+                        <span>Imagine</span>
+                        <input type="text" id="image">
+                        <p class="save__invalid-message">Va rugam sa completati acest camp!</p>
+                    </label>
+
+                    <label for="name">
+                        <span>Nume</span>
+                        <input type="text" id="name">
+                        <p class="save__invalid-message">Va rugam sa completati acest camp!</p>
+                    </label>
+
+                    <label for="description">
+                        <span>Descriere</span>
+                        <textarea id="description"></textarea>
+                        <p class="save__invalid-message">Va rugam sa completati acest camp!</p>
+                    </label>
+
+                    <label for="stock">
+                        <span>Stoc</span>
+                        <input type="number" id="stock">
+                        <p class="save__invalid-message">Va rugam sa completati acest camp!</p>
+                        <p class="save__negative-message">Acest camp nu poate contine o valoare negativa!</p>
+                    </label>
+
+                    <label for="price">
+                        <span>Pret</span>
+                        <input type="number" id="price">
+                        <p class="save__invalid-message">Va rugam sa completati acest camp!</p>
+                        <p class="save__negative-message">Acest camp nu poate contine o valoare negativa!</p>
+                    </label>
+                    <button class="button" type="submit">Salveaza</button>
+                </form>
+            </div>
+        </rm-frame>
+    </body>
+</html>

@@ -1,0 +1,29 @@
+/* -- container -- */
+.container {
+    box-sizing: border-box;
+    margin: 0 auto;
+    max-width: 450px;
+    padding: 0 1rem;
+    width: 100%;
+}
+
+.container--error h1 {
+    margin: 2rem 0;
+    text-align: center;
+    color: var(--tertiary-text-color);
+}
+
+.container--error p {
+ text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+    .container {
+        padding: 0 2rem;
+        max-width: 1920px;
+    }
+
+    .container--flex {
+        display: flex;
+    }
+}

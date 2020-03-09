@@ -1,0 +1,94 @@
+.header {
+    background: var(--secondary-color);
+    box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+    padding: 1rem 3rem;
+}
+
+.header h1 {
+    color: var(--tertiary-text-color);
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.header h1 a {
+    align-items: center;
+    display: flex;
+    font-size: 1.5rem;
+    flex-direction: column;
+    transition: filter .25s ease-out;
+}
+
+.header h1 span {
+    margin-bottom: 1rem;
+}
+
+.header h1 a img {
+    height: 2.5rem;
+    width: 2.5rem;
+    transition: transform .35s ease-out;
+}
+
+.header h1 a:hover {
+    filter: brightness(1.15);
+}
+
+.header h1 a:hover img {
+    transform: rotate(360deg);
+}
+
+.header nav {
+    text-align: center;
+}
+
+.header a {
+    display: inline-flex;
+}
+
+.header a.button {
+    width: 100%;
+    margin: 0 auto 1rem;
+    max-width: 370px;
+    text-align: center;
+    display: block;
+}
+
+@media only screen and (min-width: 768px) {
+    .header {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .header h1 {
+        margin-bottom: 0;
+    }
+
+    .header h1 a {
+        font-size: 2rem;
+        flex-direction: row;
+    }
+
+    .header h1 a span {
+        margin: 0;
+    }
+
+    .header h1 a img {
+        margin-left: 1rem;
+    }
+
+    .header a.button {
+        width: auto;
+        margin: 0;
+        display: inline-flex;
+    }
+
+    .header a.button:nth-child(1) {
+        margin-bottom: 1rem;
+    }
+}
+
+@media only screen and (min-width: 802px) {
+    .header a.button:nth-child(1) {
+        margin-bottom: 0;
+    }
+}

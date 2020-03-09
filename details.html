@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/app.css">
+
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/c73d4da8d5.js" crossorigin="anonymous" defer></script>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous" defer></script>
+
+    <!-- Owl Carousel -->
+    <script src="js/vendor/owl-carousel/owl.carousel.min.js" defer></script>
+
+    <!-- custom JS -->
+    <script type="module" src="js/details-page/entry-point.js" defer></script>
+
+    <title>Pop's Game Shop</title>
+
+</head>
+    <body>
+        <div class="loader">
+            <img src="icons/load.svg">
+        </div>
+        <rm-frame>
+            <div  class="carousel" slot="aside-content">
+                <h2>Alte Produse</h2>
+                <div class="owl-carousel"></div>
+            </div>
+            <div  class="details-content" slot="content">
+                <p class="details-content__quantity-error"></p>
+                <p class="details-content__quantity-added"></p>
+
+                <picture>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRA9WaIeRiC-WqH5ntjHk3k2_g8A3sOGcLr4OFSsLhYuyhRann3">
+                </picture>
+
+                <ul>
+                    <li><h2 class="details-content__name"></h2></li>
+                    <li class="details-content__stoc">Stoc curent: <span></span></li>
+                    <li class="details-content__price">Pret: <span></span> lei</li>
+                    <li class="details-content__description"><p></p></li>
+                    <li>
+                        <form>
+                            <label for="quantity">
+                                 Cantitate
+                                <input type="number" id="quantity" min="1">
+                            </label>
+                            <button class="button" type="submit">Adauga in cos</button>
+                        </form>
+                        <p class="details-content__current-quantity">Cantiate curenta in cos: <span>0</span></p>
+                    </li>
+                </ul>
+            </div>
+        </rm-frame>
+    </body>
+</html>
