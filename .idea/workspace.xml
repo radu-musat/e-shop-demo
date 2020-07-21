@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="390b3f68-7e5e-4122-8b0c-bf0459946401" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="390b3f68-7e5e-4122-8b0c-bf0459946401" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/carousel/carousel.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/carousel/carousel.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/web-components/page-frame.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/web-components/page-frame.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings">
-    <execution>
-      <executable />
-    </execution>
+    <execution />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -22,14 +24,24 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1XzQMJa6TlMDP53lyDN02hW1OQw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -45,18 +57,6 @@
       <recent name="G:\Projects\magazin-electronic\css\aside" />
       <recent name="G:\Projects\magazin-electronic\css\grid" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -88,11 +88,55 @@
       <workItem from="1583582352296" duration="8006000" />
       <workItem from="1583693191588" duration="8249000" />
       <workItem from="1583703850773" duration="5858000" />
-      <workItem from="1583779918648" duration="14184000" />
+      <workItem from="1583779918648" duration="15211000" />
+      <workItem from="1583795345348" duration="135000" />
+      <workItem from="1583951122297" duration="176000" />
+      <workItem from="1583952866882" duration="2592000" />
+      <workItem from="1585155928853" duration="2051000" />
+      <workItem from="1585398026108" duration="1824000" />
+      <workItem from="1585483170451" duration="280000" />
+      <workItem from="1585491933053" duration="1212000" />
+      <workItem from="1585671217371" duration="615000" />
+      <workItem from="1586348739742" duration="1806000" />
+      <workItem from="1586628450193" duration="740000" />
+      <workItem from="1586800286555" duration="1161000" />
+      <workItem from="1587912820292" duration="3896000" />
+      <workItem from="1589121763698" duration="241000" />
+      <workItem from="1589122043816" duration="4192000" />
+      <workItem from="1595340213915" duration="285000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="505" y="292" key="FileChooserDialogImpl" timestamp="1589122652162">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1516" y="230" key="FileChooserDialogImpl/-1920.0.1536.832/0.0.1920.1040@-1920.0.1536.832" timestamp="1586808271723" />
+    <state x="505" y="292" key="FileChooserDialogImpl/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1589122652162" />
+    <state x="352" y="78" key="SettingsEditor" timestamp="1589123210682">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="352" y="78" key="SettingsEditor/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1589123210682" />
+    <state x="-1543" y="198" key="com.intellij.ide.util.TipDialog" timestamp="1589122275948">
+      <screen x="-1920" y="0" width="1536" height="832" />
+    </state>
+    <state x="-1543" y="198" key="com.intellij.ide.util.TipDialog/-1920.0.1536.832/0.0.1920.1040@-1920.0.1536.832" timestamp="1589122275948" />
+    <state x="471" y="247" key="com.intellij.ide.util.TipDialog/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1585483171990" />
+    <state x="377" y="196" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1585398026700" />
   </component>
 </project>
