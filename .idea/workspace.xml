@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="390b3f68-7e5e-4122-8b0c-bf0459946401" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/carousel/carousel.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/carousel/carousel.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/web-components/page-frame.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/web-components/page-frame.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/cart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/details.html" beforeDir="false" afterPath="$PROJECT_DIR$/details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/purchase-confirm.html" beforeDir="false" afterPath="$PROJECT_DIR$/purchase-confirm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/save.html" beforeDir="false" afterPath="$PROJECT_DIR$/save.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +38,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -42,6 +47,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -58,6 +64,7 @@
       <recent name="G:\Projects\magazin-electronic\css\grid" />
     </key>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -103,12 +110,16 @@
       <workItem from="1587912820292" duration="3896000" />
       <workItem from="1589121763698" duration="241000" />
       <workItem from="1589122043816" duration="4192000" />
-      <workItem from="1595340213915" duration="285000" />
+      <workItem from="1595340213915" duration="1912000" />
+      <workItem from="1595549598346" duration="3817000" />
+      <workItem from="1595596119818" duration="50000" />
+      <workItem from="1620890149205" duration="1559000" />
+      <workItem from="1648645685151" duration="109000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -123,11 +134,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="505" y="292" key="FileChooserDialogImpl" timestamp="1589122652162">
+    <state x="505" y="292" key="FileChooserDialogImpl" timestamp="1595596166640">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1516" y="230" key="FileChooserDialogImpl/-1920.0.1536.832/0.0.1920.1040@-1920.0.1536.832" timestamp="1586808271723" />
-    <state x="505" y="292" key="FileChooserDialogImpl/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1589122652162" />
+    <state x="505" y="292" key="FileChooserDialogImpl/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1595596166640" />
     <state x="352" y="78" key="SettingsEditor" timestamp="1589123210682">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -136,7 +146,5 @@
       <screen x="-1920" y="0" width="1536" height="832" />
     </state>
     <state x="-1543" y="198" key="com.intellij.ide.util.TipDialog/-1920.0.1536.832/0.0.1920.1040@-1920.0.1536.832" timestamp="1589122275948" />
-    <state x="471" y="247" key="com.intellij.ide.util.TipDialog/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1585483171990" />
-    <state x="377" y="196" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1585398026700" />
   </component>
 </project>
